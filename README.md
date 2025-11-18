@@ -1,9 +1,7 @@
 # Refining-a-probabilistic-cross-impact-methodology-for-scenario-analysis
 Matlab implementation of a cross-impact methodogy for generating Bayes-networks based on expert judgments. Majority of this code is based on Juho Roponen's implementation of the original methodology here: https://github.com/juropo/cross-impact  . The methodology is detailed in the file ``Haapasalo_Tuomas_2025.pdf``
 
-This new methodology is based on the original paper by Juho Roponen and Ahti Salo.
-
-The code was developed only for this research paper and might not be trivially applicable to other contexts.
+This new methodology is based on the original paper by Juho Roponen and Ahti Salo. The code was developed only for this research paper and might not be trivially applicable to other contexts.
 
 ## Summary
 
