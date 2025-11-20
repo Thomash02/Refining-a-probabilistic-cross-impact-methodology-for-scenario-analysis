@@ -7,11 +7,11 @@ Matlab implementation of a cross-impact methodogy for generating Bayes-networks 
 ## A Generated Bayesian network using the GeNIe software
 **3D printing case study for the Finnish Defence Forces (FDF)**
 <p float="left">
-  <img src="figures/Starting_Positions_Bayes.jpg" width="400" />>
-  <img src="figures/printing_network.pdf" width="400" />>
+  <img src="figures/Starting_Positions_Bayes.jpg" width="400" />
+  <img src="figures/printing_network.png" width="400" />
 </p>
 
-This network structure provides a visual representation of the relationships and dependencies among the uncertainty factors. This demonstrates the possible applications of our approach such as conducting ``what-if``-analysis by locking in realizations of chosen uncertainty factors and seeing how the conditional probabilities of other uncertainty factors change. The GeNIe software can be downloaded from https://www.bayesfusion.com/genie/.
+This network structure provides a visual representation of the relationships and dependencies among the uncertainty factors. This demonstrates the possible applications of our approach such as conducting ``what-if``-analysis by locking in realizations of chosen uncertainty factors and seeing how the conditional probabilities of other uncertainty factors change. On the left we have a network where none of the uncertainty factors have any realizations and we are showcasing the marginal probabilities of each realization. On the right we have locked in some realizations to showcase how the conditional probabilities change. The GeNIe software can be downloaded from https://www.bayesfusion.com/genie/.
 
 ## Summary
 
