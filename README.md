@@ -7,10 +7,11 @@ Matlab implementation of a cross-impact methodogy for generating Bayes-networks 
 ## A Generated Bayesian network using the GeNIe software
 **3D printing case study for the Finnish Defence Forces (FDF)**
 <p float="left">
-  <img src="figures/Starting_Positions_Bayes.jpg" width="800" />>
+  <img src="figures/Starting_Positions_Bayes.jpg" width="400" />>
+  <img src="figures/printing_network.pdf" width="400" />>
 </p>
 
-This network structure provides a visual representation of the relationships and dependencies among the uncertainty factors. This demonstrates the possible applications of our approach such as conducting ``what-if``-analysis by locking in realizations of chosen uncertainty factors and seeing how the conditional probabilities of other uncertainty factors change.
+This network structure provides a visual representation of the relationships and dependencies among the uncertainty factors. This demonstrates the possible applications of our approach such as conducting ``what-if``-analysis by locking in realizations of chosen uncertainty factors and seeing how the conditional probabilities of other uncertainty factors change. The GeNIe software can be downloaded from https://www.bayesfusion.com/genie/.
 
 ## Summary
 
@@ -26,7 +27,7 @@ The applicability of the new asymmetric cross-impact term was evaluated by exami
 
 ``green_product/`` contains the script ``green_product_example.m`` that uses cross-impacts defined in the file ``green-product_example.csv`` to produce the conditional distribution for the green product example (see Tables 1-3). 
 
-``printing_network/`` contains the script ``printing_network.m`` that defines the node structure and runs the lsq problem using pre-defined cross-impacts that are specified in the file ``cross-impacts-3d.csv`` to obtain the conditional distributions to produce the Bayes network above.
+``printing_network/`` contains the script ``printing_network.m`` that defines the node structure and runs the lsq problem using pre-defined cross-impacts that are specified in the file ``cross-impacts-3d.csv`` to obtain the conditional distributions to produce the Bayes network above. ``printing_network.xdsl`` is the Bayesian network file that can be opened using the GeNIe software.
 
 ``statistical_tests/`` contains files for running the statistical tests of section 4.2.
 
